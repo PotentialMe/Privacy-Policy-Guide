@@ -2,42 +2,53 @@
 
 Introduction
 
-Welcome to our mobile app(WordPad).This policy explains how we handle your personal information when you use our app. 
+Privacy Policy
+Effective Date: May 13, 2025
+App Name: All My Gigs
+Developer: parteSoft
 
-This app does not collect your Personal Identifiable Information(PII), it doesn't require you to create a login account, to sign up, or log in. Just turn it on and begin to use it. The app is designed to be used as is. It does not store or save your password. That responsibility of saving your password is left to you-the user. We hope you will love it.
+All My Gigs is committed to protecting your privacy. This policy explains what data we collect and how it is used.
 
-1. 
-Information we collect
-None of your information is collected. No data is transmitted to any third party.
+1. Information Collection
+All My Gigs does not collect, store, or share any personally identifiable information.
 
-2.
-How we use Your Information
-We do not use what we do not have! No Information is  collected by this app.
+However, the app may use:
 
-3.
-Data Sharing and Disclosure
-We do not collect, so there is nothing to share.
+Location access (if enabled by you) — solely for displaying real-time speed, direction, and temperature.
 
-4.
-Your Choices
-You can:
- Use the app to create as many powerful passwords.
-Save your password to save your logins that require a password. 
+Device information — such as app usage (locally) to filter or launch gig apps.
 
-5.
-Security Measures
-This app is created to help you-the user, take reasonable steps to protect your data from unauthorized access.
+Ad services — If ads are enabled (free version), third-party ad providers such as Google AdMob may collect anonymized usage data to personalize ads.
 
-6.
-Children’s Privacy
-This app is not intended for children under 13.
+2. How Information Is Used
+Location and app data are used only on your device for features like gig filtering and live tracking.
 
-7.
-Changes to this Policy
-We may update this policy. Check for changes periodically.
+Ad networks (e.g., Google AdMob) may process limited data for ad targeting per their own privacy policies.
 
-8.
-Contact Us
+3. Third-Party Services
+The app may include integrations from:
+
+Google AdMob – for banner ads in the free version
+
+Google Play Billing – for handling in-app purchases (upgrading to premium)
+
+Refer to Google's Privacy Policy for more information.
+
+4. Data Retention
+All My Gigs does not store or transmit personal data. All decisions and preferences remain on your device.
+
+5. Your Choices
+You may:
+
+Disable location permissions at any time in your device settings.
+
+Upgrade to premium to remove ads.
+
+6. Changes
+We may update this policy occasionally. Updates will be posted on this GitHub page.
+
+7. Contact Us
+
 If you have any question or concerns, please contact us at
 maaminci597@gmail.com
 icy-Guide
