@@ -4,21 +4,22 @@ Introduction
 
 Privacy Policy
 Effective Date: May 13, 2025
+App Name: Prayer Mate
 App Name: All My Gigs
 Developer: parteSoft
 
-All My Gigs is committed to protecting your privacy. This policy explains what data we collect and how it is used.
+All My Gigs and Prayer Mate are committed to protecting your privacy. This policy explains what data we collect and how it is used.
 
 1. Information Collection
-All My Gigs does not collect, store, or share any personally identifiable information.
+These Applications do not collect, store, or share any personally identifiable information.
 
-However, the app may use:
+However, All My Gigs app may use:
 
 Location access (if enabled by you) — solely for displaying real-time speed, direction, and temperature.
 
 Device information — such as app usage (locally) to filter or launch gig apps.
 
-Ad services — If ads are enabled (free version), third-party ad providers such as Google AdMob may collect anonymized usage data to personalize ads.
+Ad services — If ads are enabled (free version), third-party ad providers such as Google AdMob may collect anonymized usage data to personalize ads. Prayer Mate however do not carry any advertisemnts
 
 2. How Information Is Used
 Location and app data are used only on your device for features like gig filtering and live tracking.
@@ -35,7 +36,7 @@ Google Play Billing – for handling in-app purchases (upgrading to premium)
 Refer to Google's Privacy Policy for more information.
 
 4. Data Retention
-All My Gigs does not store or transmit personal data. All decisions and preferences remain on your device.
+All My Gigs does not store or transmit personal data. All decisions and preferences remain on your device. Prayer Mate do not collect, transmit or store any information.
 
 5. Your Choices
 You may:
