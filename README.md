@@ -1,4 +1,4 @@
-# Privacy-Policy-Guide.html
+# Privacy-Policy-Guide
 
 Introduction
 
