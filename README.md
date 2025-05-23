@@ -11,6 +11,7 @@ Developer: parteSoft
 All My Gigs and Prayer Mate are committed to protecting your privacy. This policy explains what data we collect and how it is used.
 
 1. Information Collection
+   
 These Applications do not collect, store, or share any personally identifiable information.
 
 However, All My Gigs app may use:
