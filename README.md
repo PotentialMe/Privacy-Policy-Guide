@@ -1,4 +1,4 @@
-# Privacy-PolMobile App Privacy Policy
+# Privacy-Policy-Guide.html
 
 Introduction
 
