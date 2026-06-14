@@ -62,7 +62,13 @@ We use **Google Play Billing** to process premium upgrades, tips, and remove-ads
 
 ### f. Study With Me — study content and device features
 
-Study With Me is a personal study companion. Data you create (subjects, notes, flashcards, to-do items, quiz scores, focus-session history, study goals, and voice or photo study materials) is stored **on your device** using local app storage.
+Study With Me is a personal study companion. Data you create (subjects, notes, reading materials, flashcards, to-do items, quiz scores, focus-session history, study goals, and voice or photo study materials) is stored **on your device** using local app storage.
+
+**Reading materials (per subject):** You may attach PDF files and web links to a subject for study reference.
+
+- When you select a PDF, the app copies it into **private app storage on your device**. PDFs are **not uploaded** to parteSoft or any server we operate.
+- Saved web links (title and URL) are stored locally. Opening a link loads the page in the app’s built-in browser; that website may collect data according to its own privacy policy.
+- You can remove individual materials or delete a subject, which also removes its reading materials and copied PDF files.
 
 The app may request permissions so you can use optional tools:
 
@@ -70,7 +76,7 @@ The app may request permissions so you can use optional tools:
 |------------|---------|
 | Camera | Capture study photos |
 | Microphone | Record voice notes |
-| Storage / media | Save photos, recordings, and access music for the study music player |
+| Storage / media | Save photos, recordings, access music for the study music player, and import PDFs you choose into private app storage |
 | Internet | Built-in browser tool and optional online features |
 | Notifications & alarms | Daily study reminders you configure |
 | Advertising ID | AdMob banner ads (unless removed via purchase) |
@@ -102,7 +108,7 @@ Prayer Mate does not collect, store, or share any information and does not conta
 
 ## 3. How We Use Information
 
-- **On-device processing** for app features (gig filtering, study tracking, vitals and notes, calculators, reminders, etc.).
+- **On-device processing** for app features (gig filtering, study tracking, vitals and notes, calculators, reminders, reading materials, etc.).
 - **Ad delivery** through Google AdMob where ads are shown.
 - **In-app purchase processing** via Google Play Billing.
 - **Optional third-party AI** (Study With Me only, when you enable it) via Google’s Gemini API.
@@ -140,6 +146,7 @@ AdMob, Google Play Billing, and (if used) Google Gemini may retain data per thei
 - Disable **location**, **camera**, **microphone**, or other permissions in your device settings at any time (some features may stop working).
 - **Remove ads** via in-app purchase (Study With Me) or premium upgrade (All My Gigs).
 - **Turn off AI summarization** in Study With Me or remove your Gemini API key.
+- **Delete reading materials** individually or by deleting the subject in Study With Me.
 - **Uninstall** any app to delete locally stored data (except data retained by third parties per their policies).
 
 ---
