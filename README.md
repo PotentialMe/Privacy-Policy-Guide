@@ -1,12 +1,13 @@
 # Privacy Policy — parteSoft Apps
 
-**Effective Date:** June 10, 2026  
+**Effective Date:** July 30, 2026  
 **Developer:** parteSoft
 
 **Apps covered by this policy:**
 - All My Gigs
 - Prayer Mate
 - Study With Me
+- The Padword
 - VitalSyncFlow
 
 ---
@@ -42,7 +43,7 @@ The app may locally use device and app activity to:
 
 This data stays on your device and is not sent to us.
 
-### d. Advertising Data (All My Gigs, Study With Me, VitalSyncFlow)
+### d. Advertising Data (All My Gigs, Study With Me, The Padword, VitalSyncFlow)
 
 We use **Google AdMob** to show banner ads in these apps (unless ads have been removed as described below). AdMob may collect:
 
@@ -100,7 +101,13 @@ The app may request:
 
 **You are responsible** for using VitalSyncFlow in compliance with your employer, facility, and applicable healthcare privacy rules (including HIPAA where applicable). parteSoft does not access, host, or process patient health information on our servers.
 
-### h. Prayer Mate
+### h. The Padword
+
+The Padword is a password / padlock utility app. Data you create (such as passwords, notes, or pad settings you enter) is stored **locally on your device**. We do not collect or store that content on our servers.
+
+The app may use Internet access for **Google AdMob** banner ads. AdMob may collect advertising and device data as described in section 2.d above.
+
+### i. Prayer Mate
 
 Prayer Mate does not collect, store, or share any information and does not contain ads or third-party tracking.
 
@@ -123,7 +130,7 @@ Third-party services that may process limited data:
 
 | Service | Used by | Purpose |
 |---------|---------|---------|
-| Google AdMob | All My Gigs, Study With Me, VitalSyncFlow | Advertising |
+| Google AdMob | All My Gigs, Study With Me, The Padword, VitalSyncFlow | Advertising |
 | Google Play Billing | All My Gigs, Study With Me | Purchases and tips |
 | Google Gemini API | Study With Me (optional, user-enabled) | AI text summarization |
 
