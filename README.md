@@ -1,10 +1,11 @@
 # Privacy Policy — parteSoft Apps
 
-**Effective Date:** July 30, 2026  
+**Effective Date:** September 20, 2026  
 **Developer:** parteSoft
 
 **Apps covered by this policy:**
 - All My Gigs
+- EmeraldLedger
 - Prayer Mate
 - Study With Me
 - The Padword
@@ -43,7 +44,7 @@ The app may locally use device and app activity to:
 
 This data stays on your device and is not sent to us.
 
-### d. Advertising Data (All My Gigs, Study With Me, The Padword, VitalSyncFlow)
+### d. Advertising Data (All My Gigs, EmeraldLedger, Study With Me, The Padword, VitalSyncFlow)
 
 We use **Google AdMob** to show banner ads in these apps (unless ads have been removed as described below). AdMob may collect:
 
@@ -55,7 +56,8 @@ We use **Google AdMob** to show banner ads in these apps (unless ads have been r
 This is used only for delivering and measuring ads per [Google’s Privacy Policy](https://policies.google.com/privacy).
 
 **Study With Me:** You can remove banner ads with a one-time in-app purchase.  
-**All My Gigs:** You can remove ads by upgrading to the premium version.
+**All My Gigs:** You can remove ads by upgrading to the premium version.  
+**EmeraldLedger:** The app is free and has no in-app purchases. Banner ads cannot be removed from inside the app.
 
 ### e. In-App Purchases (All My Gigs, Study With Me)
 
@@ -111,11 +113,29 @@ The app may use Internet access for **Google AdMob** banner ads. AdMob may colle
 
 Prayer Mate does not collect, store, or share any information and does not contain ads or third-party tracking.
 
+### j. EmeraldLedger
+
+EmeraldLedger is a personal budget and expense ledger. It is **free**, has **no in-app purchases**, and shows **Google AdMob** banner ads.
+
+Data you enter (income streams, expenses, categories, amounts, dates, notes, currency preference, and light/dark theme) is stored **locally on your device**. We do not collect or store that ledger data on parteSoft servers. We do not create an account for you.
+
+The app may request:
+
+| Permission | Purpose |
+|------------|---------|
+| Internet | Loading Google AdMob banner ads |
+| Network state | Checking connectivity for ads |
+| Advertising ID | AdMob banner ads |
+
+AdMob may collect advertising and device data as described in section 2.d above. Your ledger entries are not sent to AdMob or to parteSoft.
+
+Uninstalling the app deletes locally stored ledger data (except data retained by Google/AdMob per their policies, and any copy Android Backup may have saved on your device or Google account if backup is enabled).
+
 ---
 
 ## 3. How We Use Information
 
-- **On-device processing** for app features (gig filtering, study tracking, vitals and notes, calculators, reminders, reading materials, etc.).
+- **On-device processing** for app features (gig filtering, study tracking, vitals and notes, calculators, reminders, reading materials, budget ledger entries, etc.).
 - **Ad delivery** through Google AdMob where ads are shown.
 - **In-app purchase processing** via Google Play Billing.
 - **Optional third-party AI** (Study With Me only, when you enable it) via Google’s Gemini API.
@@ -130,7 +150,7 @@ Third-party services that may process limited data:
 
 | Service | Used by | Purpose |
 |---------|---------|---------|
-| Google AdMob | All My Gigs, Study With Me, The Padword, VitalSyncFlow | Advertising |
+| Google AdMob | All My Gigs, EmeraldLedger, Study With Me, The Padword, VitalSyncFlow | Advertising |
 | Google Play Billing | All My Gigs, Study With Me | Purchases and tips |
 | Google Gemini API | Study With Me (optional, user-enabled) | AI text summarization |
 
@@ -151,7 +171,7 @@ AdMob, Google Play Billing, and (if used) Google Gemini may retain data per thei
 ## 6. Your Choices
 
 - Disable **location**, **camera**, **microphone**, or other permissions in your device settings at any time (some features may stop working).
-- **Remove ads** via in-app purchase (Study With Me) or premium upgrade (All My Gigs).
+- **Remove ads** via in-app purchase (Study With Me) or premium upgrade (All My Gigs). EmeraldLedger has no in-app purchase to remove ads.
 - **Turn off AI summarization** in Study With Me or remove your Gemini API key.
 - **Delete reading materials** individually or by deleting the subject in Study With Me.
 - **Uninstall** any app to delete locally stored data (except data retained by third parties per their policies).
