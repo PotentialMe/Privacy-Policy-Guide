@@ -6,6 +6,7 @@
 **Apps covered by this policy:**
 - All My Gigs
 - EmeraldLedger
+- My Sunnah
 - Prayer Mate
 - Study With Me
 - The Padword
@@ -29,11 +30,14 @@ We do not collect, store, or share personally identifiable information such as y
 
 Some apps let **you** enter content (study notes, patient names, shift notes, etc.). That content is stored **locally on your device** unless a feature below explicitly sends it to a third party.
 
-### b. Location Data (All My Gigs only)
+### b. Location Data (All My Gigs, My Sunnah)
 
-If you grant permission, All My Gigs may access your device’s location to display real-time speed, direction, and temperature.
+If you grant permission:
 
-Location data is processed only on your device and is not stored or transmitted to our servers.
+- **All My Gigs** may access your device’s location to display real-time speed, direction, and temperature.
+- **My Sunnah** may access your device’s location to calculate local prayer times for optional reminders.
+
+Location data is processed only on your device and is not stored or transmitted to parteSoft servers. My Sunnah sends coordinates only to the on-device prayer-time calculation (not to our servers). Uninstalling the app or denying location permission stops this use.
 
 ### c. Device and App Usage Data (All My Gigs only)
 
@@ -131,11 +135,29 @@ AdMob may collect advertising and device data as described in section 2.d above.
 
 Uninstalling the app deletes locally stored ledger data (except data retained by Google/AdMob per their policies, and any copy Android Backup may have saved on your device or Google account if backup is enabled).
 
+### k. My Sunnah
+
+My Sunnah is a personal daily sunnah prayer tracker. It is **free**, has **no in-app purchases**, and **does not show ads**.
+
+Data you create (completed rakaats, pause history, reminder preferences, calculation method, and theme) is stored **locally on your device**. We do not create an account and we do not collect or store that data on parteSoft servers.
+
+If you enable prayer reminders, the app may request:
+
+| Permission | Purpose |
+|------------|---------|
+| Location | Calculate prayer times for your current place |
+| Notifications | Deliver the reminders you schedule |
+| Do Not Disturb / notification policy | Optional quiet mode while tracking on Android |
+| Keep the screen on | Optional while a prayer session is active |
+| Internet | Not used for accounts or ads; Android may still use the network for system services |
+
+Location is used only when you turn reminders on. Prayer history stays on the device. Uninstalling the app deletes locally stored history.
+
 ---
 
 ## 3. How We Use Information
 
-- **On-device processing** for app features (gig filtering, study tracking, vitals and notes, calculators, reminders, reading materials, budget ledger entries, etc.).
+- **On-device processing** for app features (gig filtering, study tracking, vitals and notes, calculators, reminders, reading materials, budget ledger entries, sunnah prayer tracking, etc.).
 - **Ad delivery** through Google AdMob where ads are shown.
 - **In-app purchase processing** via Google Play Billing.
 - **Optional third-party AI** (Study With Me only, when you enable it) via Google’s Gemini API.
@@ -170,7 +192,7 @@ AdMob, Google Play Billing, and (if used) Google Gemini may retain data per thei
 
 ## 6. Your Choices
 
-- Disable **location**, **camera**, **microphone**, or other permissions in your device settings at any time (some features may stop working).
+- Disable **location**, **camera**, **microphone**, or other permissions in your device settings at any time (some features may stop working). My Sunnah reminders need location and notification permission if you enable them.
 - **Remove ads** via in-app purchase (Study With Me) or premium upgrade (All My Gigs). EmeraldLedger has no in-app purchase to remove ads.
 - **Turn off AI summarization** in Study With Me or remove your Gemini API key.
 - **Delete reading materials** individually or by deleting the subject in Study With Me.
