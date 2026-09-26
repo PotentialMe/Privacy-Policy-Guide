@@ -1,6 +1,6 @@
 # Privacy Policy — parteSoft Apps
 
-**Effective Date:** September 20, 2026  
+**Effective Date:** September 25, 2026  
 **Developer:** parteSoft
 
 **Apps covered by this policy:**
@@ -8,6 +8,7 @@
 - EmeraldLedger
 - My Sunnah
 - Prayer Mate
+- Smart Compare
 - Study With Me
 - The Padword
 - VitalSyncFlow
@@ -48,7 +49,7 @@ The app may locally use device and app activity to:
 
 This data stays on your device and is not sent to us.
 
-### d. Advertising Data (All My Gigs, EmeraldLedger, Study With Me, The Padword, VitalSyncFlow)
+### d. Advertising Data (All My Gigs, EmeraldLedger, Smart Compare, Study With Me, The Padword, VitalSyncFlow)
 
 We use **Google AdMob** to show banner ads in these apps (unless ads have been removed as described below). AdMob may collect:
 
@@ -61,7 +62,8 @@ This is used only for delivering and measuring ads per [Google’s Privacy Polic
 
 **Study With Me:** You can remove banner ads with a one-time in-app purchase.  
 **All My Gigs:** You can remove ads by upgrading to the premium version.  
-**EmeraldLedger:** The app is free and has no in-app purchases. Banner ads cannot be removed from inside the app.
+**EmeraldLedger:** The app is free and has no in-app purchases. Banner ads cannot be removed from inside the app.  
+**Smart Compare:** The app is free and has no in-app purchases. Banner ads cannot be removed from inside the app.
 
 ### e. In-App Purchases (All My Gigs, Study With Me)
 
@@ -153,11 +155,35 @@ If you enable prayer reminders, the app may request:
 
 Location is used only when you turn reminders on. Prayer history stays on the device. Uninstalling the app deletes locally stored history.
 
+### l. Smart Compare
+
+Smart Compare is a product comparison app. It is **free**, has **no in-app purchases**, and shows **Google AdMob** banner ads.
+
+When you search, the words you type and the number of results you ask for are sent to a **parteSoft Cloudflare Worker**. That Worker asks **eBay** for matching products and returns titles, prices, sellers, and listing links to the app. We do not create an account for you, and we do not save a profile of your searches on our servers. The Worker handles the request only to return results. Cloudflare and eBay may process that request under their own privacy policies.
+
+An optional insurance name, used only to show a “verify with your plan” hint on medical-looking items, stays **on your device**. It is not sent with the search.
+
+If you tap **BUY NOW**, the listing opens in an in-app browser. That merchant (for example, eBay) may collect data under its own privacy policy.
+
+Optional buy history (item title, seller, price, and link) is stored **locally on your device**. You can turn logging off, clear history, or protect history with a PIN. The PIN is stored only as a hash on the device.
+
+The app may request:
+
+| Permission | Purpose |
+|------------|---------|
+| Internet | Product search through the parteSoft Worker, opening listing pages, and Google AdMob banner ads |
+| Advertising ID | AdMob banner ads |
+
+AdMob may collect advertising and device data as described in section 2.d above. Your search text is not sent to AdMob.
+
+Uninstalling the app deletes locally stored buy history and the PIN.
+
 ---
 
 ## 3. How We Use Information
 
-- **On-device processing** for app features (gig filtering, study tracking, vitals and notes, calculators, reminders, reading materials, budget ledger entries, sunnah prayer tracking, etc.).
+- **On-device processing** for app features (gig filtering, study tracking, vitals and notes, calculators, reminders, reading materials, budget ledger entries, sunnah prayer tracking, Smart Compare buy history, etc.).
+- **Product search** (Smart Compare only): the search text is sent to our Cloudflare Worker, which requests matching listings from eBay and returns them to the app.
 - **Ad delivery** through Google AdMob where ads are shown.
 - **In-app purchase processing** via Google Play Billing.
 - **Optional third-party AI** (Study With Me only, when you enable it) via Google’s Gemini API.
@@ -172,7 +198,8 @@ Third-party services that may process limited data:
 
 | Service | Used by | Purpose |
 |---------|---------|---------|
-| Google AdMob | All My Gigs, EmeraldLedger, Study With Me, The Padword, VitalSyncFlow | Advertising |
+| Google AdMob | All My Gigs, EmeraldLedger, Smart Compare, Study With Me, The Padword, VitalSyncFlow | Advertising |
+| Cloudflare Worker and eBay | Smart Compare | Product search. The search text is sent to return listings. |
 | Google Play Billing | All My Gigs, Study With Me | Purchases and tips |
 | Google Gemini API | Study With Me (optional, user-enabled) | AI text summarization |
 
@@ -193,7 +220,8 @@ AdMob, Google Play Billing, and (if used) Google Gemini may retain data per thei
 ## 6. Your Choices
 
 - Disable **location**, **camera**, **microphone**, or other permissions in your device settings at any time (some features may stop working). My Sunnah reminders need location and notification permission if you enable them.
-- **Remove ads** via in-app purchase (Study With Me) or premium upgrade (All My Gigs). EmeraldLedger has no in-app purchase to remove ads.
+- **Remove ads** via in-app purchase (Study With Me) or premium upgrade (All My Gigs). EmeraldLedger and Smart Compare have no in-app purchase to remove ads.
+- **Smart Compare:** turn off buy-history logging, clear history, or set a PIN in the app menu. Searches are not saved as an account.
 - **Turn off AI summarization** in Study With Me or remove your Gemini API key.
 - **Delete reading materials** individually or by deleting the subject in Study With Me.
 - **Uninstall** any app to delete locally stored data (except data retained by third parties per their policies).
