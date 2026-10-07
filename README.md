@@ -1,11 +1,12 @@
 # Privacy Policy — parteSoft Apps
 
-**Effective Date:** September 25, 2026  
+**Effective Date:** October 6, 2026  
 **Developer:** parteSoft
 
 **Apps covered by this policy:**
 - All My Gigs
 - EmeraldLedger
+- Millimoling Glucose
 - My Sunnah
 - Prayer Mate
 - Smart Compare
@@ -49,7 +50,7 @@ The app may locally use device and app activity to:
 
 This data stays on your device and is not sent to us.
 
-### d. Advertising Data (All My Gigs, EmeraldLedger, Smart Compare, Study With Me, The Padword, VitalSyncFlow)
+### d. Advertising Data (All My Gigs, EmeraldLedger, Millimoling Glucose, Smart Compare, Study With Me, The Padword, VitalSyncFlow)
 
 We use **Google AdMob** to show banner ads in these apps (unless ads have been removed as described below). AdMob may collect:
 
@@ -63,6 +64,7 @@ This is used only for delivering and measuring ads per [Google’s Privacy Polic
 **Study With Me:** You can remove banner ads with a one-time in-app purchase.  
 **All My Gigs:** You can remove ads by upgrading to the premium version.  
 **EmeraldLedger:** The app is free and has no in-app purchases. Banner ads cannot be removed from inside the app.  
+**Millimoling Glucose:** The app is free and has no in-app purchases. Its banner ads are requested as non-personalized ads and cannot be removed from inside the app. Glucose readings and other health records are not supplied to AdMob.  
 **Smart Compare:** The app is free and has no in-app purchases. Banner ads cannot be removed from inside the app.
 
 ### e. In-App Purchases (All My Gigs, Study With Me)
@@ -178,11 +180,41 @@ AdMob may collect advertising and device data as described in section 2.d above.
 
 Uninstalling the app deletes locally stored buy history and the PIN.
 
+### m. Millimoling Glucose
+
+Millimoling Glucose is a local-first blood glucose recording, visualization, and sharing app. It is **free**, has **no in-app purchases**, and shows **Google AdMob** banner ads. It is not a diagnostic or treatment service.
+
+Data you enter or import—including glucose values, dates and times, meal or time-of-day categories, notes, target settings, report-frequency settings, and calculated summaries, charts, patterns, and mathematical A1C estimates—is stored **locally on your device**. We do not create an account and do not collect or store this health information on parteSoft servers. Glucose records are not sent to AdMob.
+
+On supported Android devices, saved app data is encrypted using AES-GCM with a key protected by the Android Keystore. Android cloud backup is disabled for Millimoling Glucose.
+
+Bluetooth is optional; manual logging remains available without it. If you choose meter syncing, the app uses Bluetooth Low Energy to find, pair with, and import readings from compatible nearby glucose meters. Saved meter names, technical identifiers, record sequence information, and sync settings remain on the device. Android handles any pairing code; Millimoling Glucose does not store that code. On older Android versions, Android may label the permission required for Bluetooth scanning as location access. The app does not read, store, or transmit GPS coordinates.
+
+Optional automatic meter sync may use an Android foreground service and notification so the app can watch for a saved meter. Bluetooth transfer does not require internet access.
+
+The app may request:
+
+| Permission | Purpose |
+|------------|---------|
+| Bluetooth scan/connect or Nearby Devices | Finding, pairing with, and syncing compatible glucose meters |
+| Location on older Android versions | Required by Android for Bluetooth scanning; not used to collect GPS coordinates |
+| Notifications and foreground service | Showing automatic-sync status and import notifications |
+| Internet and network state | AdMob ads and consent, plus external educational links selected by the user |
+| Advertising ID | AdMob banner ads where permitted |
+
+The core record, history, chart, calculation, report-creation, and Bluetooth features can work without internet access. Internet may be used for AdMob and its consent tools, opening educational websites, or completing a share through an email, cloud-storage, messaging, or other service chosen by the user.
+
+PDF and CSV reports are generated on the device. Printing uses Android's system print service. Reports leave the app only when you deliberately save, print, or share them. The selected receiving app, service, healthcare provider, or printer may process the report under its own privacy practices. Millimoling Glucose does not automatically upload records to parteSoft, a patient portal, an EHR, or a healthcare provider.
+
+You can edit or delete individual glucose readings and remove saved meters. Removing a meter does not delete readings previously imported from it. Uninstalling the app or clearing its storage deletes its locally stored data; copies that you previously saved or shared must be deleted from the receiving location separately.
+
+Millimoling Glucose requests non-personalized ads without health-related targeting information. AdMob may still process advertising and device information described in section 2.d for ad delivery, measurement, consent, and fraud prevention. Where required, the app uses Google's consent tools and provides an **Ad privacy** control.
+
 ---
 
 ## 3. How We Use Information
 
-- **On-device processing** for app features (gig filtering, study tracking, vitals and notes, calculators, reminders, reading materials, budget ledger entries, sunnah prayer tracking, Smart Compare buy history, etc.).
+- **On-device processing** for app features (gig filtering, study tracking, vitals and notes, calculators, reminders, reading materials, budget ledger entries, sunnah prayer tracking, Smart Compare buy history, Millimoling glucose records and meter sync, etc.).
 - **Product search** (Smart Compare only): the search text is sent to our Cloudflare Worker, which requests matching listings from eBay and returns them to the app.
 - **Ad delivery** through Google AdMob where ads are shown.
 - **In-app purchase processing** via Google Play Billing.
@@ -198,7 +230,7 @@ Third-party services that may process limited data:
 
 | Service | Used by | Purpose |
 |---------|---------|---------|
-| Google AdMob | All My Gigs, EmeraldLedger, Smart Compare, Study With Me, The Padword, VitalSyncFlow | Advertising |
+| Google AdMob | All My Gigs, EmeraldLedger, Millimoling Glucose, Smart Compare, Study With Me, The Padword, VitalSyncFlow | Advertising |
 | Cloudflare Worker and eBay | Smart Compare | Product search. The search text is sent to return listings. |
 | Google Play Billing | All My Gigs, Study With Me | Purchases and tips |
 | Google Gemini API | Study With Me (optional, user-enabled) | AI text summarization |
@@ -222,6 +254,7 @@ AdMob, Google Play Billing, and (if used) Google Gemini may retain data per thei
 - Disable **location**, **camera**, **microphone**, or other permissions in your device settings at any time (some features may stop working). My Sunnah reminders need location and notification permission if you enable them.
 - **Remove ads** via in-app purchase (Study With Me) or premium upgrade (All My Gigs). EmeraldLedger and Smart Compare have no in-app purchase to remove ads.
 - **Smart Compare:** turn off buy-history logging, clear history, or set a PIN in the app menu. Searches are not saved as an account.
+- **Millimoling Glucose:** use manual logging without Bluetooth; deny or disable Bluetooth and notification permissions; turn off automatic meter sync; edit or delete individual readings; remove saved meters; use **Ad privacy** where available; or uninstall the app to delete its local app data. Reports already saved or shared must be deleted from their destination separately.
 - **Turn off AI summarization** in Study With Me or remove your Gemini API key.
 - **Delete reading materials** individually or by deleting the subject in Study With Me.
 - **Uninstall** any app to delete locally stored data (except data retained by third parties per their policies).
