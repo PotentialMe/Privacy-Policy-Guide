@@ -1,6 +1,6 @@
 # Privacy Policy — parteSoft Apps
 
-**Effective Date:** October 6, 2026  
+**Effective Date:** November 18, 2026  
 **Developer:** parteSoft
 
 **Apps covered by this policy:**
@@ -9,6 +9,7 @@
 - Millimoling Glucose
 - My Sunnah
 - Prayer Mate
+- Rihla Guide
 - Smart Compare
 - Study With Me
 - The Padword
@@ -20,7 +21,7 @@
 
 At parteSoft, we respect your privacy. This policy describes what information our apps may collect, how it is used, and the choices you have. It applies to all apps listed above.
 
-We do not operate our own servers to collect or store your personal data. Unless stated otherwise for a specific feature, information stays on your device or is handled directly by third-party services you choose to use (such as Google AdMob or Google Play Billing).
+We do not operate our own servers to collect or store your personal data. Smart Compare and Rihla Guide use small parteSoft services only to pass requests along and return results (see sections 2.l and 2.n). Unless stated otherwise for a specific feature, information stays on your device or is handled directly by third-party services you choose to use (such as Google AdMob or Google Play Billing).
 
 ---
 
@@ -32,7 +33,7 @@ We do not collect, store, or share personally identifiable information such as y
 
 Some apps let **you** enter content (study notes, patient names, shift notes, etc.). That content is stored **locally on your device** unless a feature below explicitly sends it to a third party.
 
-### b. Location Data (All My Gigs, My Sunnah)
+### b. Location Data (All My Gigs, My Sunnah; Rihla Guide in section 2.n)
 
 If you grant permission:
 
@@ -50,7 +51,7 @@ The app may locally use device and app activity to:
 
 This data stays on your device and is not sent to us.
 
-### d. Advertising Data (All My Gigs, EmeraldLedger, Millimoling Glucose, Smart Compare, Study With Me, The Padword, VitalSyncFlow)
+### d. Advertising Data (All My Gigs, EmeraldLedger, Millimoling Glucose, Rihla Guide, Smart Compare, Study With Me, The Padword, VitalSyncFlow)
 
 We use **Google AdMob** to show banner ads in these apps (unless ads have been removed as described below). AdMob may collect:
 
@@ -65,6 +66,7 @@ This is used only for delivering and measuring ads per [Google’s Privacy Polic
 **All My Gigs:** You can remove ads by upgrading to the premium version.  
 **EmeraldLedger:** The app is free and has no in-app purchases. Banner ads cannot be removed from inside the app.  
 **Millimoling Glucose:** The app is free and has no in-app purchases. Its banner ads are requested as non-personalized ads and cannot be removed from inside the app. Glucose readings and other health records are not supplied to AdMob.  
+**Rihla Guide:** The app is free and has no in-app purchases. Banner ads cannot be removed from inside the app.  
 **Smart Compare:** The app is free and has no in-app purchases. Banner ads cannot be removed from inside the app.
 
 ### e. In-App Purchases (All My Gigs, Study With Me)
@@ -210,12 +212,42 @@ You can edit or delete individual glucose readings and remove saved meters. Remo
 
 Millimoling Glucose requests non-personalized ads without health-related targeting information. AdMob may still process advertising and device information described in section 2.d for ad delivery, measurement, consent, and fraud prevention. Where required, the app uses Google's consent tools and provides an **Ad privacy** control.
 
+### n. Rihla Guide
+
+Rihla Guide is a travel companion that tells you which city you are in and shows weather, a short city summary, safety information and nearby places. It is **free**, has **no in-app purchases**, **no analytics**, and **no account**. It shows **Google AdMob** banner ads (see section 2.d). Your location, city and searches are not sent to AdMob by the app; AdMob may still infer an approximate location from your IP address, as described in section 2.d. Where the law requires it (for example in the EEA, the UK and Switzerland), the app asks for your consent through Google's consent message before showing personalized ads, and you can change your choice at any time under **Privacy settings** in the app's top-right menu.
+
+**Location.** If you allow it, the app reads your device's approximate or precise location while you use it. It does not track you in the background and does not keep a location history on the device. To work out your city, nearby places and weather, the coordinates are sent to these services:
+
+| Service | What is sent | Why |
+|---------|--------------|-----|
+| Android's built-in geocoder (provided by Google on most phones) | Your coordinates | Find the city name |
+| OpenStreetMap Nominatim (only if the built-in geocoder gives no answer) | Your coordinates | Find the city name |
+| Open-Meteo | Your coordinates | Current weather and 5-day forecast |
+| Wikipedia and Wikidata | The city name (not your coordinates) | City summary, photo and population |
+| parteSoft places service (the-inomad.com, behind Cloudflare), which asks **Geoapify** | Your coordinates, the place category and search distance | Nearby places on the Explore tab |
+
+**What the parteSoft places service keeps.** It adds our Geoapify key and forwards the request, so Geoapify sees the request as coming from our server, not from your phone. To save requests, the answer is cached on our server for up to 6 hours under a hashed key made from the location rounded to about 100 m; your exact coordinates are not saved. To prevent abuse, the server counts requests per hashed IP address in 10-minute windows; the counter is reset each window. We do not link this to a name, account or device ID, and we do not build a history of where you have been. Our web host and Cloudflare may keep standard server logs (such as IP address and time of request) under their own policies.
+
+**Leaving the app.** "Take me there", "Call", "Website" and the official travel-advisory links open other apps or websites (for example Google Maps, your phone dialer, a place's website, travel.state.gov or gov.uk). Those apps and sites handle data under their own privacy policies.
+
+The app may request:
+
+| Permission | Purpose |
+|------------|---------|
+| Location (approximate or precise) | Detect your city and find nearby places |
+| Internet | Contact the services listed above and load Google AdMob banner ads |
+| Network state | Check connectivity |
+| Advertising ID | AdMob banner ads |
+
+If you deny location, the app cannot show city information and offers a button to open its page in your device settings. You can change or remove location access there at any time.
+
 ---
 
 ## 3. How We Use Information
 
 - **On-device processing** for app features (gig filtering, study tracking, vitals and notes, calculators, reminders, reading materials, budget ledger entries, sunnah prayer tracking, Smart Compare buy history, Millimoling glucose records and meter sync, etc.).
 - **Product search** (Smart Compare only): the search text is sent to our Cloudflare Worker, which requests matching listings from eBay and returns them to the app.
+- **City, weather and nearby places** (Rihla Guide only): your coordinates are sent to the services listed in section 2.n to answer your request.
 - **Ad delivery** through Google AdMob where ads are shown.
 - **In-app purchase processing** via Google Play Billing.
 - **Optional third-party AI** (Study With Me only, when you enable it) via Google’s Gemini API.
@@ -230,8 +262,10 @@ Third-party services that may process limited data:
 
 | Service | Used by | Purpose |
 |---------|---------|---------|
-| Google AdMob | All My Gigs, EmeraldLedger, Millimoling Glucose, Smart Compare, Study With Me, The Padword, VitalSyncFlow | Advertising |
+| Google AdMob | All My Gigs, EmeraldLedger, Millimoling Glucose, Rihla Guide, Smart Compare, Study With Me, The Padword, VitalSyncFlow | Advertising |
 | Cloudflare Worker and eBay | Smart Compare | Product search. The search text is sent to return listings. |
+| parteSoft places service (the-inomad.com via Cloudflare) and Geoapify | Rihla Guide | Nearby places. Coordinates and category are sent to return results. |
+| Android geocoder (Google), OpenStreetMap Nominatim, Open-Meteo, Wikipedia/Wikidata | Rihla Guide | City name, weather and city summary |
 | Google Play Billing | All My Gigs, Study With Me | Purchases and tips |
 | Google Gemini API | Study With Me (optional, user-enabled) | AI text summarization |
 
@@ -241,7 +275,7 @@ Each third party has its own privacy policy.
 
 ## 5. Data Retention
 
-We do not store personal data on parteSoft servers.
+We do not store personal data on parteSoft servers. The only exception is the Rihla Guide places service, which keeps cached search results (up to 6 hours, keyed by a hashed, rounded location) and a hashed-IP request counter (reset every 10 minutes), as described in section 2.n.
 
 User preferences and app content remain on your device until you delete them or uninstall the app.
 
@@ -251,10 +285,11 @@ AdMob, Google Play Billing, and (if used) Google Gemini may retain data per thei
 
 ## 6. Your Choices
 
-- Disable **location**, **camera**, **microphone**, or other permissions in your device settings at any time (some features may stop working). My Sunnah reminders need location and notification permission if you enable them.
-- **Remove ads** via in-app purchase (Study With Me) or premium upgrade (All My Gigs). EmeraldLedger and Smart Compare have no in-app purchase to remove ads.
+- Disable **location**, **camera**, **microphone**, or other permissions in your device settings at any time (some features may stop working). My Sunnah reminders need location and notification permission if you enable them. Rihla Guide needs location to show city information and nearby places.
+- **Remove ads** via in-app purchase (Study With Me) or premium upgrade (All My Gigs). EmeraldLedger, Millimoling Glucose, Rihla Guide and Smart Compare have no in-app purchase to remove ads.
 - **Smart Compare:** turn off buy-history logging, clear history, or set a PIN in the app menu. Searches are not saved as an account.
 - **Millimoling Glucose:** use manual logging without Bluetooth; deny or disable Bluetooth and notification permissions; turn off automatic meter sync; edit or delete individual readings; remove saved meters; use **Ad privacy** where available; or uninstall the app to delete its local app data. Reports already saved or shared must be deleted from their destination separately.
+- **Rihla Guide:** deny or remove location access in your device settings; where required by law, change or withdraw your ad consent under **Privacy settings** in the app menu.
 - **Turn off AI summarization** in Study With Me or remove your Gemini API key.
 - **Delete reading materials** individually or by deleting the subject in Study With Me.
 - **Uninstall** any app to delete locally stored data (except data retained by third parties per their policies).
